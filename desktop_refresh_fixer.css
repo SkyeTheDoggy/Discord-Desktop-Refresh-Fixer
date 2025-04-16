@@ -15,7 +15,7 @@
 }
 
 /* Comment the lines below if you're on a Windows system  
-   or your client uses the systen title bar */
+   or your client doesnt use the systen title bar */
 
 bar_c38106, .bar_c38106 * ,.title_c38106, .title_c38106 * {
     overflow: hidden !important;
