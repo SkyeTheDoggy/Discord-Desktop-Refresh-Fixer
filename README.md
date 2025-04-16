@@ -18,7 +18,7 @@ Not everyone loves the new UI. This theme is for those who prefer the old layout
 
 ### ⚠️ Windows Users & Custom Title Bars
 
-If you're on **Windows** or your client uses the **Discord’s built-in title bar** instead of the system one, make sure to **remove or comment out** the following lines in your CSS file:
+If you're on **Windows** and/or your client uses the **Discord’s built-in title bar** instead of the system one, make sure to **remove or comment out** the following lines in your CSS file:
 
 ```css
 bar_c38106, .bar_c38106 *, .title_c38106, .title_c38106 * {
