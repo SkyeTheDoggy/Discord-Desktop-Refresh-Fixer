@@ -12,7 +12,7 @@ You can install and use the theme with any custom Discord client, like [BetterDi
 
 ### ⚠️ Windows Users & Custom Title Bars
 
-If you're on **Windows** or your client uses the **system title bar** instead of Discord’s built-in one, make sure to **remove or comment out** the following lines in your CSS file:
+If you're on **Windows** or your client uses the **Discord’s built-in title bar** instead of the system one, make sure to **remove or comment out** the following lines in your CSS file:
 
 ```css
 bar_c38106, .bar_c38106 *, .title_c38106, .title_c38106 * {
