@@ -28,7 +28,7 @@ bar_c38106, .bar_c38106 *, .title_c38106, .title_c38106 * {
 ### 💡 Why?
 Not everyone loves the new UI. This theme is for those who prefer the old layout and want to revert some of Discord’s recent changes, such as:
 - The user bar overlapping both the channels list and server list.
-- Removing Discord's built-in title bar for users that uses the system-wide one.
+- Removing Discord's built-in title bar for users that prefers system's one.
 - And more tweaks coming soon!
 
 ---
