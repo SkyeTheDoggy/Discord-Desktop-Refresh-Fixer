@@ -10,6 +10,21 @@ A theme that aims to improve and undo some of the less popular changes introduce
 ### 💾 How to Use:
 You can install and use the theme with any custom Discord client, like [BetterDiscord](https://betterdiscord.app/) or [Vencord](https://vencord.dev/).
 
+### ⚠️ Windows Users & Custom Title Bars
+
+If you're on **Windows** or your client uses the **system title bar** instead of Discord’s built-in one, make sure to **remove or comment out** the following lines in your CSS file:
+
+```css
+bar_c38106, .bar_c38106 *, .title_c38106, .title_c38106 * {
+    overflow: hidden !important;
+    height: 0 !important;
+}
+
+.base_c48ade {
+    margin-top: -37px;
+}
+```
+
 ### 💡 Why?
 Not everyone loves the new UI. This theme is for those who prefer the old layout and want to revert some of Discord’s recent changes, such as:
 - The user bar overlapping both the channels list and server list.
