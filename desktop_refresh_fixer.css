@@ -1,7 +1,7 @@
 /**
  * @name Discord Desktop Refresh Fixer
  * @description [Buggy BETA] A work-in-progress theme aiming to fix and roll back the worst parts of Discord’s new Desktop Visual Refresh mess.
- * @version 0.0.2
+ * @version 0.0.3
  * @author SkyeTheDoggy
  * @source https://github.com/SkyeTheDoggy/Discord-Desktop-Refresh-Fixer
  */
@@ -14,6 +14,9 @@
     border-radius: 0 !important;
 }
 
+/* Comment the lines below if you're on a Windows system  
+   or your client uses the systen title bar */
+
 bar_c38106, .bar_c38106 * ,.title_c38106, .title_c38106 * {
     overflow: hidden !important;
     height: 0 !important;
@@ -22,6 +25,8 @@ bar_c38106, .bar_c38106 * ,.title_c38106, .title_c38106 * {
 .base_c48ade {
     margin-top: -37px;
 }
+
+/* -------------------------- */
 
 .searchBar__35e86 {
     margin-top: 1px;
