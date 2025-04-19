@@ -31,6 +31,12 @@ bar_c38106, .bar_c38106 *, .title_c38106, .title_c38106 * {
 }
 ```
 
+### 📜 Credits
+> **Note:** The following individuals are not direct contributors to this project. They're credited because parts of their code were used within this project.
+
+- **Guild Icons:** [scattagain](https://github.com/scattagain)
+- **Message Timestamp Revert:** [Relevant Message](https://discord.com/channels/1015060230222131221/1028106818368589824/1354458308714696816) from the [Vencord Server](https://discord.gg/vencord)
+
 ---
 
 ### ✅ To-Do
