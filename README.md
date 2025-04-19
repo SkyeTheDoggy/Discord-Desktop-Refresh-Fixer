@@ -39,13 +39,6 @@ bar_c38106, .bar_c38106 *, .title_c38106, .title_c38106 * {
 
 ---
 
-### ✅ To-Do
-- Revert server icons (guilds bar) to the classic circular style.
-- Restore original icon sizes for a less cramped look.
-- Fix UI bugs and inconsistencies.
-
----
-
 ### 🤝 Contributing
 Contributions are welcome! Whether it's fixing a bug, improving styles, or suggesting changes.
 Feel free to open an issue or submit a pull request.
