@@ -16,21 +16,6 @@ Not everyone loves the new UI. This theme is for those who prefer the old layout
 - Removing Discord's built-in title bar for users that prefers system's one.
 - And more tweaks coming soon!
 
-### ⚠️ Windows Users & Custom Title Bars
-
-If you're on **Windows** and/or your client uses the **Discord’s built-in title bar** instead of the system one, make sure to **remove or comment out** the following lines in your CSS file:
-
-```css
-bar_c38106, .bar_c38106 *, .title_c38106, .title_c38106 * {
-    overflow: hidden !important;
-    height: 0 !important;
-}
-
-.base_c48ade {
-    margin-top: -37px;
-}
-```
-
 ### 📜 Credits
 > **Note:** The following individuals are not direct contributors to this project. They're credited because parts of their code were used within this project.
 
