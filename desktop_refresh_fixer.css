@@ -32,15 +32,16 @@ span[class*="timestampInline_"] {
 }
 /* -------------------------- */
 
-/* Comment the lines below if you're on a Windows system  
-   or your client doesnt use the systen title bar */
-bar_c38106, .bar_c38106 * ,.title_c38106, .title_c38106 * {
-    overflow: hidden !important;
-    height: 0 !important;
-}
+/* Automatically removes Discord's built-in title bar on systems with forced native title bar */
+body:not(:has(.winButtons_c38106)) {
+    .bar_c38106, .bar_c38106 * ,.title_c38106, .title_c38106 * {
+        overflow: hidden !important;
+        height: 0 !important;
+    }
 
-.base_c48ade {
-    margin-top: -37px;
+    .base_c48ade {
+        margin-top: -37px;
+    }
 }
 /* -------------------------- */
 
