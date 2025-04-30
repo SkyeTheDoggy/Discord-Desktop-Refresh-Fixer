@@ -1,7 +1,7 @@
 /**
  * @name Discord Desktop Refresh Fixer
  * @description [Buggy BETA] A work-in-progress theme aiming to fix and roll back the worst parts of Discord’s new Desktop Visual Refresh mess.
- * @version 0.0.5
+ * @version 0.0.6
  * @author SkyeTheDoggy
  * @authorId 679270448931930145
  * @website https://github.com/SkyeTheDoggy/Discord-Desktop-Refresh-Fixer
@@ -33,15 +33,13 @@ span[class*="timestampInline_"] {
 /* -------------------------- */
 
 /* Automatically removes Discord's built-in title bar on systems with forced native title bar */
-body:not(:has(.winButtons_c38106)) {
-    .bar_c38106, .bar_c38106 * ,.title_c38106, .title_c38106 * {
-        overflow: hidden !important;
-        height: 0 !important;
-    }
+body:not(:has(.winButtons_c38106)) .bar_c38106,
+body:not(:has(.winButtons_c38106)) .title_c38106 {
+  display: none !important;
+}
 
-    .base_c48ade {
-        margin-top: -37px;
-    }
+body:not(:has(.winButtons_c38106)) .base_c48ade {
+  margin-top: -37px !important;
 }
 /* -------------------------- */
 
