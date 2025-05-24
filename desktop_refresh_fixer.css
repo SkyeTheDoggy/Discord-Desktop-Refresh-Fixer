@@ -1,25 +1,11 @@
 /**
  * @name Discord Desktop Refresh Fixer
  * @description [Buggy BETA] A work-in-progress theme aiming to fix and roll back the worst parts of Discord’s new Desktop Visual Refresh mess.
- * @version 0.0.6
+ * @version 0.0.7
  * @author SkyeTheDoggy
  * @authorId 679270448931930145
  * @website https://github.com/SkyeTheDoggy/Discord-Desktop-Refresh-Fixer
  */
-
-/* Credits: https://github.com/scattagain */
-@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
-
-:root {
-    /* Only include this part if you wish to change these variables */
-    /* You can change the size but only to be less than 48px, you must change the blob scale too */
-    --guildbar-avatar-size: 48px;
-    --blob-scale: 48;
-
-    --guildbar-folder-size: var(--guildbar-avatar-size);
-    --folder-blob-scale: var(--blob-scale);
-}
-/* -------------------------- */
 
 /* Credits: http://discord.gg/vencord | https://discord.com/channels/1015060230222131221/1028106818368589824/1354458308714696816 */
 span[class*="timestampInline_"] time::before {
@@ -39,13 +25,13 @@ body:not(:has(.winButtons_c38106)) .title_c38106 {
 }
 
 body:not(:has(.winButtons_c38106)) .base_c48ade {
-  margin-top: -37px !important;
+  margin-top: -32px !important;
 }
 /* -------------------------- */
 
 .panels_c48ade {
-    max-width: calc(100% - 73px);
-    margin-left: 65px;
+    max-width: calc(100% - 76px);
+    margin-left: 68px;
     margin-bottom: -8px;
     border: none !important;
     border-radius: 0 !important;
