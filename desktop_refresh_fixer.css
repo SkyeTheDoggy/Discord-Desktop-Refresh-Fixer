@@ -1,7 +1,7 @@
 /**
  * @name Discord Desktop Refresh Fixer
  * @description [Buggy BETA] A work-in-progress theme aiming to fix and roll back the worst parts of Discord’s new Desktop Visual Refresh mess.
- * @version 0.0.7
+ * @version 0.0.8
  * @author SkyeTheDoggy
  * @authorId 679270448931930145
  * @website https://github.com/SkyeTheDoggy/Discord-Desktop-Refresh-Fixer
@@ -30,8 +30,8 @@ body:not(:has(.winButtons_c38106)) .base_c48ade {
 /* -------------------------- */
 
 .panels_c48ade {
-    max-width: calc(100% - 76px);
-    margin-left: 68px;
+    max-width: calc(100% - 72px);
+    margin-left: 65px;
     margin-bottom: -8px;
     border: none !important;
     border-radius: 0 !important;
